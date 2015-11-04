@@ -13,9 +13,9 @@
 		FE72A6EB1BE920F8006126C7 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE72A6EA1BE920F8006126C7 /* ModelController.swift */; };
 		FE72A6EE1BE920F8006126C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE72A6EC1BE920F8006126C7 /* Main.storyboard */; };
 		FE72A6F01BE920F8006126C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE72A6EF1BE920F8006126C7 /* Assets.xcassets */; };
-		FE72A6F31BE920F8006126C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE72A6F11BE920F8006126C7 /* LaunchScreen.storyboard */; };
 		FE72A6FE1BE920F8006126C7 /* iOS_midtermTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE72A6FD1BE920F8006126C7 /* iOS_midtermTests.swift */; };
 		FE72A7091BE920F8006126C7 /* iOS_midtermUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE72A7081BE920F8006126C7 /* iOS_midtermUITests.swift */; };
+		FE72A7171BE928EB006126C7 /* TREES.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE72A7161BE928EB006126C7 /* TREES.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,6 @@
 		FE72A6EA1BE920F8006126C7 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		FE72A6ED1BE920F8006126C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE72A6EF1BE920F8006126C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FE72A6F21BE920F8006126C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE72A6F41BE920F8006126C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE72A6F91BE920F8006126C7 /* iOS midtermTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS midtermTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE72A6FD1BE920F8006126C7 /* iOS_midtermTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_midtermTests.swift; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		FE72A7041BE920F8006126C7 /* iOS midtermUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS midtermUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE72A7081BE920F8006126C7 /* iOS_midtermUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_midtermUITests.swift; sourceTree = "<group>"; };
 		FE72A70A1BE920F8006126C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE72A7161BE928EB006126C7 /* TREES.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TREES.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +107,8 @@
 				FE72A6EA1BE920F8006126C7 /* ModelController.swift */,
 				FE72A6EC1BE920F8006126C7 /* Main.storyboard */,
 				FE72A6EF1BE920F8006126C7 /* Assets.xcassets */,
-				FE72A6F11BE920F8006126C7 /* LaunchScreen.storyboard */,
 				FE72A6F41BE920F8006126C7 /* Info.plist */,
+				FE72A7161BE928EB006126C7 /* TREES.plist */,
 			);
 			path = "iOS midterm";
 			sourceTree = "<group>";
@@ -235,7 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE72A6F31BE920F8006126C7 /* LaunchScreen.storyboard in Resources */,
+				FE72A7171BE928EB006126C7 /* TREES.plist in Resources */,
 				FE72A6F01BE920F8006126C7 /* Assets.xcassets in Resources */,
 				FE72A6EE1BE920F8006126C7 /* Main.storyboard in Resources */,
 			);
@@ -307,14 +307,6 @@
 				FE72A6ED1BE920F8006126C7 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FE72A6F11BE920F8006126C7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FE72A6F21BE920F8006126C7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

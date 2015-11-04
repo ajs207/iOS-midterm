@@ -21,13 +21,17 @@ import UIKit
 class ModelController: NSObject, UIPageViewControllerDataSource {
 
     var pageData: [String] = []
+    //list of trees
+    var trees: [String] = ["Cotton Tree", "Wonderboom", "Drago Milenario", "Baobab", "Arbre du Ténéré", "Sisters Olive Trees of Noah", "Cedars of God", "The Great Banyan", "Tree of Life", "Changi Tree", "Old Tjikko", "Bartek"]
 
 
     override init() {
         super.init()
         // Create the data model.
-        let dateFormatter = NSDateFormatter()
-        pageData = dateFormatter.monthSymbols
+        //set page data to trees(display tree names as titles"
+        pageData=trees
+        
+        
     }
 
     func viewControllerAtIndex(index: Int, storyboard: UIStoryboard) -> DataViewController? {
