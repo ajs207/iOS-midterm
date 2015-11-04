@@ -20,7 +20,8 @@ class DataViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-         var data: Dictionary<String, String>? = {
+        //load TREES plist into dictionary
+         var treeData: Dictionary<String, String>? = {
             guard let path = NSBundle.mainBundle().pathForResource("TREES", ofType: "plist") else {
                 print("Invalid path for plist")
                 return nil
@@ -28,14 +29,17 @@ class DataViewController: UIViewController {
             
             return NSDictionary(contentsOfFile: path) as? Dictionary<String, String>
         }()
-        print(data!["Cotton Tree"])
-        // Do any additional setup after loading the view, typically from a nib.
         
-        if let url = NSURL(string: data![dataObject]!) {
-            if let data = NSData(contentsOfURL: url){
+        
+        
+        //set url to picture url in plist
+        if let url = NSURL(string: treeData![dataObject]!) {
+            
+            //set picture for page to image from plist
+            if let treeData = NSData(contentsOfURL: url){
                 treePic.contentMode = UIViewContentMode.Center
                 treePic.contentMode = UIViewContentMode.ScaleAspectFill
-                treePic.image = UIImage(data: data)
+                treePic.image = UIImage(data: treeData)
             }
         }
     }
@@ -49,7 +53,7 @@ class DataViewController: UIViewController {
         super.viewWillAppear(animated)
         self.dataLabel?.text = dataObject
     }
-//check for commit
+
 
 }
 
