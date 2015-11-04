@@ -484,6 +484,7 @@
 				FE72A70F1BE920F8006126C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE72A7101BE920F8006126C7 /* Build configuration list for PBXNativeTarget "iOS midtermTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +493,7 @@
 				FE72A7121BE920F8006126C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE72A7131BE920F8006126C7 /* Build configuration list for PBXNativeTarget "iOS midtermUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +502,7 @@
 				FE72A7151BE920F8006126C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
